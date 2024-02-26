@@ -51,13 +51,13 @@ export const NavBar = () => {
 
           <span className="navbar-text">
             <div className="social-icon">
-              <a href="#">
+              <a href="https://www.linkedin.com/in/natanael-martins-8019731a2/" target="_blank">
                 <img src={navIcon1} alt="" />
               </a>
-              <a href="github.com/natanaelmartins">
+              <a href="https://github.com/natanaelmartins" target="_blank">
                 <img src={navIcon2} alt="" />
               </a>
-              <a href="#">
+              <a href="https://instagram.com/natan_martins7" target="_blank">
                 <img src={navIcon3} alt="" />
               </a>
             </div>

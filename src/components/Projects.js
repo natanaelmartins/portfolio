@@ -13,19 +13,19 @@ export const Projects = () => {
       title: "Recriando a UI do Twitter",
       description: "Projeto front-end usando React.js",
       imgUrl: projImg1,
-      projectUrl: "github.com",
+      projectUrl: "https://twitter-clone-natanael.netlify.app",
     },
     {
       title: "Criando um joguinho",
       description: "Baseado no famoso joguinho do dinossauro do Google Chrome (usando HTML, CSS e JavaScript puro).",
       imgUrl: projImg2,
-      projectUrl: "github.com",
+      projectUrl: "https://capy-game.netlify.app",
     },
     {
       title: "Gerenciador de tarefas",
       description: "Aplicação utilitária que simula um quadro kanban para uso no dia-a-dia. Usando Spring Boot e Thymeleaf. (em construção)",
       imgUrl: projImg3,
-      projectUrl: "github.com",
+      projectUrl: "",
     },
   ];
 
