@@ -23,9 +23,9 @@ export const Projects = () => {
     },
     {
       title: "Gerenciador de tarefas",
-      description: "Aplicação utilitária que simula um quadro kanban para uso no dia-a-dia. Usando Spring Boot e Thymeleaf. (em construção)",
+      description: "Aplicação utilitária que simula um quadro kanban para organizar uma lista de tarefas. Usando Spring Boot e Thymeleaf.",
       imgUrl: projImg3,
-      projectUrl: "",
+      projectUrl: "https://kanban-diary.azurewebsites.net/home",
     },
   ];
 
