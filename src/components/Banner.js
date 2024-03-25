@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../assets/img/header-img.svg";
+import headerImg from "../assets/img/header-img.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -54,9 +54,9 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <span className="tagline">Seja bem-vindo(a) ao meu portfólio</span>
+                <span className="tagline">Seja bem-vindo(a) ao meu portfólio :)</span>
                 <h1>{`Me chamo Natanael,`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "sou estudante de Sistemas de Informação", "trabalho com desenvolvimento back-end em Java", "estudo e faço projetos em React :)" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>Atualmente, trabalho no desenvolvimento de projetos quem usam React e Java (com foco na linguagem Java). Atuo no desenvolvimento, na criação de testes unitários (com jUnit e Mockito), possuo contato com o sistema de integração CI/CD (Jenkins) e utilizo o SonarQube para melhorar a qualidade do código. Também trabalho com ferramentas como o Swagger, Docker e Postman/SoapUI.</p>
+                  <p className="text-white">Atualmente, trabalho no desenvolvimento de projetos quem usam React e Java (com foco na linguagem Java). Atuo no desenvolvimento, na criação de testes unitários (com jUnit e Mockito), possuo contato com o sistema de integração CI/CD (Jenkins) e utilizo o SonarQube para melhorar a qualidade do código. Também trabalho com ferramentas como o Swagger, Docker e Postman/SoapUI.</p>
               </div>}
             </TrackVisibility>
           </Col>
